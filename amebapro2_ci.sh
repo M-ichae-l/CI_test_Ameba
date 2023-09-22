@@ -13,14 +13,13 @@ unzip_ubuntu(){
     rm -rf $TOOLCHAIN_PATH
     echo "unzip_ubuntu"
     mkdir $TOOLCHAIN_PATH
-    echo $OSTYPE
     cd $ROOT_PATH/Arduino_package/release/
     tar -jxvf ameba_pro2_toolchain_linux-1.0.1-p1.tar.bz2 -C $TOOLCHAIN_PATH
     tar -jxvf ameba_pro2_toolchain_linux-1.0.1-p2.tar.bz2 -C $TOOLCHAIN_PATH
 }
 
-echo $OSTYPE
-echo $OSTYPE
+echo $OS
+echo $OS
 echo $OSTYPE
 echo $OSTYPE
 unzip_ubuntu
